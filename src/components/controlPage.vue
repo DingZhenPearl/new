@@ -20,13 +20,7 @@
       </ul>
       <button @click="turnOff">立即关闭</button>
     </div>
-    <div class="footer">
-      <nav>
-        <a href="#">控制</a>
-        <a href="#">数据统计</a>
-        <a href="#">状态与设置</a>
-      </nav>
-    </div>
+    <!-- 已移除底部导航栏 -->
   </div>
 </template>
 
@@ -100,20 +94,5 @@ button {
 
 button:hover {
   background-color: #357ab8;
-}
-
-.footer nav {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-}
-
-.footer a {
-  text-decoration: none;
-  color: #4a90e2;
-}
-
-.footer a:hover {
-  text-decoration: underline;
 }
 </style>
