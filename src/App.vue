@@ -16,7 +16,7 @@
 
 
 // adb.exe connect 127.0.0.1:16384
-
+ 
 export default {
   name: 'App'
 }
